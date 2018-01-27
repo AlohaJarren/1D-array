@@ -9,13 +9,13 @@ function cars(){
 	var car3 = "Mazda";
 
 	//Create an array declaration named cars and set each car variable as the values.
-
+var cars = [car1, car2, car3];
 	//Print the created array
-
+console.log(cars);
 	//Print the array length
-
+console.log(cars.length);
 	//Return the created array and the array length
-	return;
+	return cars + " acquires a length of " + cars.length;
 }
 
 console.log(cars());
@@ -28,13 +28,13 @@ console.log(cars());
 */
 function order(food, drink, dessert){
 	//Store the parameters in an array called "order"
-
+	var order = [food, drink, dessert];
 	//Print the array named "order"
-	
+	console.log(order);
 	//Print the length of the array named "order"
-
+	console.log(order.length)
 	//Return the order as a complete sentence represented as a string
-	return;
+	return order + " acquires a length of " + order.length;
 }
 
 console.log(order("Burger", "root beer", "frosty"));
@@ -57,9 +57,9 @@ var currentClasses = [
 */
 function loopToChange(classes){
 	//Print the parameter that is being passed through the function
-
+	console.log(classes);
 	//Use a For loop to iterate through each value in the passed array
-	
+	for(i=0; i=)
 	//Return classes
 	return;
 }
